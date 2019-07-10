@@ -31,11 +31,12 @@ We separated all the integer features from the feature set to be fed into the mo
 
 Sentiment Analysis using reviews classification
 
-- Data manipulation
+- #### Data manipulation
 We analyzed 552,664 reviews in the dataset downloaded from AirBnb. Out of which we selected 50% for train and 50% for test. Only two columns – ‘id’ and ‘customer reviews’(comments) were useful in the reviews dataset for sentiment analysis. On customer reviews column, we performed cleaning operations such as blank string removal, punctuation removal, stop words removal, alpha numeric words removal, etc. We also performed lemmatization on the cleaned column.
-- Feature engineering  
+- #### Feature engineering  
 After performing lemmatization, we identified the polarity of the sentence using TextBlob. After this we obtained a score against each of the reviews. Using this score we obtained a label for our dataset. All the reviews which had a score greater than 0.1, was tagged as positive and the reviews which had a score less than zero, were tagged as negative. We eliminated neutral sentences (with a score of 0 and 0.1) from further steps. Post this on the review column, we implemented tokenization and tf-tdf approach to create vectors for each of the words. And built a classification model on the train data. Below is the attachment of EDA that we performed in Tableau on reviews data.
 
-#### Results 
+### Results 
 
-
+![price_prediction_results]()
+![sentiment_analysis_results]()
