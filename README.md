@@ -38,5 +38,5 @@ After performing lemmatization, we identified the polarity of the sentence using
 
 ### Results 
 
-![price_prediction_results]()
-![sentiment_analysis_results]()
+![price_prediction_results](https://github.com/singhankit16/Airbnb_NYC_Data_Analysis/blob/master/Price_prediction_results.PNG)
+![sentiment_analysis_results](https://github.com/singhankit16/Airbnb_NYC_Data_Analysis/blob/master/Price_prediction_results.PNG)
